@@ -61,7 +61,7 @@ Do **not** start the application yourself. If you want to run the full applicati
 - Use Angular directives and pipes for reusable functionality where appropriate
 - Use Angular's component-level CSS encapsulation
 - Implement responsive design using CSS Grid and Flexbox
-- Use Angular Signals for reactive state management in components and services
+- Use Angular Signals for reactive state management in components and services. See `.guides/angular-signals.md` and `.guides/angular-signals-forms.md` for details.
 - Leverage `signal()`, `computed()`, and `effect()` for reactive state updates
 - Use writable signals for mutable state and computed signals for derived state
 - Handle loading and error states with signals and proper UI feedback

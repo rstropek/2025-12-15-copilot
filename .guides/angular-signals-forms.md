@@ -1,9 +1,4 @@
-# Angular 21 Signal Forms — Quick Guide for Coding Agents
-
-> **Status**: ⚠️ Experimental (Angular 21)  
-> APIs may change. Avoid production use unless risks are understood.
-
----
+# Angular 21 Signal Forms
 
 ## 1. Core Concept
 
