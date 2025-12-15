@@ -3,3 +3,5 @@
 
 export type { PingGet$Params as PingGet$Params } from './fn/web-api/ping-get';
 export { pingGet as pingGet } from './fn/web-api/ping-get';
+export type { MeasurementsSimulatedGet$Params as MeasurementsSimulatedGet$Params } from './fn/web-api/measurements-simulated-get';
+export { measurementsSimulatedGet as measurementsSimulatedGet } from './fn/web-api/measurements-simulated-get';

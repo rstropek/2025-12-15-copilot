@@ -15,5 +15,8 @@ app.UseSwaggerUI(options => options.SwaggerEndpoint("/openapi/v1.json", "v1"));
 app.UseHttpsRedirection();
 
 app.MapDemoEndpoints();
+app.MapMeasurementsEndpoints();
 
 app.Run();
+
+public partial class Program;

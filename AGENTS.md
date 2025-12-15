@@ -66,7 +66,7 @@ Do **not** start the application yourself. If you want to run the full applicati
 - Use writable signals for mutable state and computed signals for derived state
 - Handle loading and error states with signals and proper UI feedback
 - Use Angular's `inject()` function for dependency injection in standalone components
-- Use `firstValueFrom` to convert observables to promises when working with the web API. Prefer async/await over RxJS operators for better readability.
+- Use `firstValueFrom` to convert observables to promises when working with the web API. Prefer async/await over RxJS operators for better readability. SSE endpoints are an exception and should be handled with RxJS observables.
 
 ## Quality Control
 
