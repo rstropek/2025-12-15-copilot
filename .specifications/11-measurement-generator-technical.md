@@ -1,4 +1,3 @@
-
 # Technical specification
 
 ## Public API surface
@@ -6,10 +5,6 @@
 Interface
 
 ```cs
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using System.Threading;
-
 public interface IMeasurementSource<TMeasurement>
 {
     IAsyncEnumerable<TMeasurement> GetMeasurementsAsync(
@@ -33,13 +28,6 @@ public readonly record struct MeasurementSample(
 Generator class
 
 ```cs
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Runtime.CompilerServices;
-using System.Threading;
-using System.Threading.Tasks;
-
 public sealed class SimulatedMeasurementGenerator : IMeasurementSource<MeasurementSample>
 {
     // ctor for general function
